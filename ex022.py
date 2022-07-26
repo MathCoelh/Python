@@ -1,7 +1,0 @@
-nome = input('Digite seu nome completo: ')
-pn = nome.replace(' ','')
-pnl = nome.split()
-print('Seu nome em maiusculo é: {}'.format(nome.upper()))
-print('Seu nome em minusculas é: {}'.format(nome.lower()))
-print('Seu nome tem {} letras.'.format(len(pn)))
-print('Seu primeiro nome é {} e ele tem {} letras'.format(pnl[0], len(pnl[0])))
