@@ -1,0 +1,5 @@
+nome = str(input('Digite uma frase: ')).strip()
+nome1 = nome.lower()
+print('A letra A aparece {} vezes na frase.'.format(nome1.count('a')))
+print('A primeira letra A apareceu na posição {}'.format(nome1.find('a')+1))
+print('A última letra A apareceu na posição {}'.format(nome1.rfind('a')+1))
